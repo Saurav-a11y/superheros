@@ -1,0 +1,13 @@
+.item-slider .card {
+  height: 40vh;
+}
+.item-slider .chevron {
+  color: #f0141e;
+  font-size: 40px;
+  background-color: unset;
+  border: unset;
+}
+.item-slider .chevron:focus {
+  border: unset;
+  outline: none;
+}

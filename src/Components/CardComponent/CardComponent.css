@@ -1,0 +1,46 @@
+.card {
+  background-color: unset;
+  border: unset;
+  cursor: pointer;
+  transition: transform 0.9s;
+}
+.card .card-img,
+.card-img-top {
+  height: 100%;
+}
+.card .card-img-overlay {
+  background-image: linear-gradient(
+    to right,
+    rgba(3, 3, 3, 0.3) 100%,
+    rgba(15, 15, 15, 0.2) 80%
+  );
+  display: flex;
+  align-items: flex-end;
+  transition: all 5s;
+}
+.card .card-img-overlay .btn {
+  display: none;
+  color: #ffffff;
+  font-size: 20px;
+  position: absolute;
+  bottom: 60px;
+  transition: all 5s;
+}
+.card:hover {
+  transform: scale(0.9);
+}
+.card:hover .card-img-overlay {
+  background-image: linear-gradient(
+    to right,
+    rgba(3, 3, 3, 0.7) 100%,
+    rgba(15, 15, 15, 0.6) 80%
+  );
+  justify-content: center;
+}
+.card:hover .card-img-overlay .btn {
+  display: block;
+  align-self: center;
+}
+.card-img-overlay .btn:focus {
+  box-shadow: none;
+}

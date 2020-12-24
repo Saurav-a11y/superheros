@@ -1,0 +1,31 @@
+body {
+  font-family: "Open Sans Condensed";
+  background-color: #000000;
+  text-decoration-color: #ffffff;
+}
+
+a,
+.title {
+  text-decoration: none;
+  color: #ffffff;
+  text-align: center;
+}
+.title {
+  font-family: "BeachclubGrunge";
+  color: #f0141e;
+  font-size: 4vw;
+}
+p {
+  font-family: "BeachclubGrunge";
+  color: #ffffff;
+  font-size: 1vw;
+}
+
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "BeachclubGrunge";
+  src: local("BeachclubGrunge"),
+    url("./fonts/BeachclubGrunge-X3W5j.otf") format("truetype");
+}

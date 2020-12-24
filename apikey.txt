@@ -1,0 +1,14 @@
+//  https://app.sportdataapi.com/api/v1/status?apikey: a10e7330-32b7-11eb-b80f-6d913e801d5d
+
+//  Your public key
+//  d0e5f277f385cb50056b36a027f36532
+
+//  Your private key
+//  c07884fee76da0f7c19152438419842a4674bdb1
+
+//  1c07884fee76da0f7c19152438419842a4674bdb1d0e5f277f385cb50056b36a027f36532
+
+//  md5
+//  3c954ba9394a4eb51ec2e6d892325941
+
+//  http://gateway.marvel.com/v1/public/comics?ts=1&apikey=d0e5f277f385cb50056b36a027f36532&hash=3c954ba9394a4eb51ec2e6d892325941

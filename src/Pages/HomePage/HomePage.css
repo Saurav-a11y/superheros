@@ -1,0 +1,9 @@
+.home-page {
+  position: absolute;
+  top: 0;
+}
+.character-collections,
+.comic-slider {
+  display: flex;
+  flex-direction: column;
+}

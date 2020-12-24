@@ -1,0 +1,47 @@
+/* .single-character-page {
+  background-image: url("../../img/avengersBackground.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+} */
+.single-character-page .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.6;
+}
+.single-character {
+  display: flex;
+  justify-content: center;
+}
+.single-character .single-img {
+  width: 26vw;
+  height: 50vh;
+  padding: 0;
+  background-color: unset;
+  border: unset;
+  border-radius: 0;
+  opacity: 0.5;
+}
+.single-character .single-character-details {
+  margin-left: 60px;
+}
+.single-character .single-character-details .description {
+  width: 38vw;
+}
+.single-character .single-character-details .sub-details {
+  cursor: pointer;
+}
+.single-character .single-character-details .sub-details .title {
+  font-size: 2vw;
+}
+.single-character .single-character-details .sub-details .availabe {
+  font-size: 1.7vw;
+  color: #ffffff;
+  font-family: "BeachclubGrunge";
+}

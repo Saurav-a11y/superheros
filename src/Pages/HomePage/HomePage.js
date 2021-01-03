@@ -42,7 +42,10 @@ const HomePage = ({
     <div className="home-page container-fluid">
       <EventCarouselWithSpinner isLoading={isFetching} results={eventResults} />
       <div className="comic-slider">
-        <span className="title"> Read our latest Comics </span>
+        <span className="title">
+          {" "}
+          Read our latest Comics with latest features{" "}
+        </span>
         <ItemSlider comicsData={comicsData} />
       </div>
       <div className="character-collections">

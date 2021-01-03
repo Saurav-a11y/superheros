@@ -44,7 +44,7 @@ const HomePage = ({
       <div className="comic-slider">
         <span className="title">
           {" "}
-          Read our latest Comics with latest features{" "}
+          Read our latest Comics with latest features and with latest brand{" "}
         </span>
         <ItemSlider comicsData={comicsData} />
       </div>

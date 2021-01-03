@@ -44,12 +44,13 @@ const HomePage = ({
       <div className="comic-slider">
         <span className="title">
           {" "}
-          Read our latest Comics with latest features{" "}
+          Read our latest Comics with latest features and with latest brand{" "}
         </span>
         <ItemSlider comicsData={comicsData} />
       </div>
       <div className="character-collections">
         <span className="title">Marvel's Characters </span>
+        <span className="title">Specials's Characters </span>
         <Route
           exact
           path={`${match.path}`}

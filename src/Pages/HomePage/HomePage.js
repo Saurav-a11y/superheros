@@ -50,6 +50,7 @@ const HomePage = ({
       </div>
       <div className="character-collections">
         <span className="title">Marvel's Characters </span>
+        <span className="title">Specials's Characters </span>
         <Route
           exact
           path={`${match.path}`}
